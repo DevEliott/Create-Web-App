@@ -9,23 +9,15 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 )
 
-const (
-	NextJS  = "npx create-next-app@latest"
-	NextTS  = "npx create-next-app@latest --typescript"
-	Angular = "npx ng new"
-	Vite    = "npm create vite@latest"
-	SolidJS = "npx degit solidjs/templates/js"
-	SolidTS = "npx degit solidjs/templates/ts"
-)
-
 var (
 	apps = map[string]string{
-		"Next.js":            NextJS,
-		"Next.js Typescript": NextTS,
-		"Angular":            Angular,
-		"Vite":               Vite,
-		"Solidjs":            SolidJS,
-		"Solidjs Typescript": SolidTS,
+		"Next.js":            "npx create-next-app@latest",
+		"Next.js Typescript": "npx create-next-app@latest --typescript",
+		"Angular":            "npx ng new",
+		"Vite":               "npm create vite@latest",
+		"Solidjs":            "npx degit solidjs/templates/js",
+		"Solidjs Typescript": "npx degit solidjs/templates/ts",
+		"Astro":              "npm init astro",
 	}
 )
 
