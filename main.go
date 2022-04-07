@@ -16,7 +16,7 @@ var (
 		"Angular":            "npx ng new",
 		"Vite":               "npm create vite@latest",
 		"Solidjs":            "npx degit solidjs/templates/js",
-		"Solidjs Typescript": "npx degit solidjs/templates/ts",
+		"Solidjs Typescript": "npx degit solidjs/templates/ts-windicss",
 		"Astro":              "npm init astro",
 	}
 )
