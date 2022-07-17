@@ -11,13 +11,11 @@ import (
 
 var (
 	apps = map[string]string{
-		"Next.js":            "npx create-next-app@latest",
-		"Next.js Typescript": "npx create-next-app@latest --typescript",
-		"Angular":            "npx ng new",
-		"Vite":               "npm create vite@latest",
-		"Solidjs":            "npx degit solidjs/templates/js",
-		"Solidjs Typescript": "npx degit solidjs/templates/ts-windicss",
-		"Astro":              "npm init astro",
+		"Next":    "npx create-next-app@latest --typescript",
+		"Angular": "npx ng new",
+		"Vite":    "npm create vite@latest",
+		"Solid":   "npx degit solidjs/templates/ts",
+		"Astro":   "npm init astro",
 	}
 )
 
